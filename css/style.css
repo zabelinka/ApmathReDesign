@@ -1,13 +1,17 @@
-#amcp_logo{
-    margin: 25px 0px 0px 10px ;
+#amcp_logo {
+    margin: 25px 0px 0px 10px;
     height: 70px;
- }
-#spbu_block{
-    height: 80px;
-
-    margin-top: 20px;
-    margin-left:-70px;
 }
-h1.title{
-    margin-left: -20px;
+
+#spbu_block {
+    height: 80px;
+    margin-left: 25px;
+    margin-top: 20px;
+
+}
+
+.title {
+    margin-right: -80px;
+
+    padding-right: -80px;
 }
