@@ -7,6 +7,8 @@ header row styles
 }
 .languages{
     margin-top: 4px;
+    font-family: 'Open Sans', sans-serif ;
+    color: #777;
 }
 .form-control.search{
     height: 30px;
@@ -15,8 +17,11 @@ header row styles
     height: 30px;
 }
 .btn-default.sing-in{
+    margin-left: 0px;
     padding-top: 4px;
-    width: 70px;
+}
+.col-xs-2.sing-in-btn{
+    padding-left: 0;
 }
 /*
 title row style
@@ -34,11 +39,9 @@ title row style
 }
 
 .title-col{
-    margin-bottom: 30px;
-    margin-left: -5px;
-
+    margin-bottom: 20px;
+    padding-left: -5px;
     font-family: 'Open Sans', sans-serif ;
-
 }
 .subtitle{
     margin-top: 7px;
@@ -51,4 +54,28 @@ title row style
     font-weight: 600;
 }
 
-
+/*
+audience row style
+*/
+ul.audience{
+    margin-left: 18px;
+}
+ul.audience li{
+    display: inline; /* Отображать как строчный элемент */
+    margin-top: 0;
+    padding: 3px; /* Поля вокруг текста */
+}
+.nav-pills>li>a.audience{
+    color: #555;
+    font-family: 'Open Sans', sans-serif ;
+    border-radius: 2px;
+}
+.nav>li>a.audience {
+    padding: 8px 15px;
+}
+.nav-pills>li>a.audience:hover {
+    background-color:#f8f8f8;
+}
+.nav-pills>li>a.audience:focus {
+    background-color:#e7e7e7;
+}
