@@ -1,41 +1,54 @@
-.language-search{
-    margin-top: 10px;
-    margin-left: -30px;
+/*
+header row styles
+*/
+.header-row{
+    padding: 5px;
+    /*background-color: #f8f9f7;*/
 }
-
-
-
-
-.header{
-
+.languages{
+    margin-top: 4px;
 }
-
-
+.form-control.search{
+    height: 30px;
+}
+.btn-default.search-btn, .btn-default.sing-in{
+    height: 30px;
+}
+.btn-default.sing-in{
+    padding-top: 4px;
+    width: 70px;
+}
+/*
+title row style
+*/
 #amcp_logo {
-    margin: 25px 0px 0px 20px;
+    margin: 5px 0px 0px 20px;
     height: 100px;
 }
 
 #spbu_block {
-    height: 120px;
-    margin-left: -35px;
-    margin-top: 18px;
+    height: 100px;
+    margin-left: -20px;
+    margin-top: 10px;
 
 }
 
-.title {
-    margin-top: 0px;
-    font-size: 22pt;
-    font-weight: 600;
+.title-col{
+    margin-bottom: 30px;
+    margin-left: -5px;
+
     font-family: 'Open Sans', sans-serif ;
+
 }
 .subtitle{
     margin-top: 7px;
     font-size: 18pt;
-    font-family: 'Open Sans', sans-serif ;
 }
 
-.title-col{
-    margin-top: 20px;
-    margin-bottom: 30px;
+.title {
+    margin-top: -7px;
+    font-size: 22pt;
+    font-weight: 600;
 }
+
+
