@@ -130,13 +130,14 @@ img.pano{
 }
 
 button.virtual-tour {
-
-
-    width:60%;
-    height:40px;
-    background: linear-gradient(to right, transparent 0%, #eee 40%, #eee 60%, transparent 100%); /*1973b8*/
+    position: inherit;
+    bottom:2px;
+    width:100%;
+    padding: 10px;
+    background: linear-gradient(to right, transparent 0%, #e5e4e1 40%, #e5e4e1 60%, transparent 100%); /*1973b8*/
     opacity: 1;
     border: none;
+
 }
 a.virtual-tour{
     opacity: 1;
