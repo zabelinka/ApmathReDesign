@@ -120,10 +120,35 @@ pano image style
 img.pano{
     width: 100%;
     border-radius: 4px;
+    margin-bottom: -40px;
 }
 
+#img_container {
+    position:relative;
+    display:inline-block;
+    text-align:center;
+}
+
+button.virtual-tour {
 
 
+    width:60%;
+    height:40px;
+    background: linear-gradient(to right, transparent 0%, #eee 40%, #eee 60%, transparent 100%); /*1973b8*/
+    opacity: 1;
+    border: none;
+}
+a.virtual-tour{
+    opacity: 1;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+}
+a.virtual-tour:hover, a.virtual-tour:focus{
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
 
 
 
