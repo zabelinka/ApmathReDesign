@@ -38,12 +38,12 @@ title row style
 #spbu_block {
     height: 100px;
     margin-left: -20px;
-    margin-top: 10px;
+    margin-top: 7px;
 
 }
 
 .title-col{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-left: -5px;
     font-family: 'Open Sans', sans-serif ;
 }
@@ -72,7 +72,7 @@ ul.audience li{
 .nav-pills>li>a.audience{
     color: #555;
     font-family: 'Open Sans', sans-serif ;
-    font-size: 13pt;
+    font-size: 12pt;
     border-radius: 2px;
 }
 .nav>li>a.audience {
@@ -83,4 +83,33 @@ ul.audience li{
 }
 .nav-pills>li>a.audience:focus {
     background-color:#e7e7e7;
+}
+
+/*
+main menu style
+*/
+.navbar.navbar-default.main-menu{
+    margin-bottom: 5px;
+    min-height: 30px;
+}
+
+div#navbar-collapse-1.collapse.navbar-collapse.navbar-nav-justified {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.nav-pills>li>a.menu{
+    color:#555;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+}
+ul.dropdown-menu>li>a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11pt;
+}
+.nav-pills>li>a.menu:focus {
+    background-color:#e1e1e1;
+}
+span.navmenu{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 3px;
 }
