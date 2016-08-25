@@ -2,34 +2,59 @@
 header row styles
 */
 .header-row{
-    padding: 5px;
+    padding-top: 6px;
+    margin-bottom: 10px;
     /*background-color: #f8f9f7;*/
 }
+
+/*
+audience row style
+*/
+
+
+ul.audience>li{
+    display: inline; /* Отображать как строчный элемент */
+    margin-top: 0;
+    padding-left: 8px;
+}
+.nav-pills>li>a.audience{
+    color: #555;
+    font-family: 'Open Sans', sans-serif ;
+    font-size: 11pt;
+    border-radius: 2px;
+}
+.nav>li>a.audience {
+    padding: 6px 15px 8px;
+}
+.nav-pills>li>a.audience:hover, .nav-pills>li>a.languages:hover  {
+    color: inherit;
+    background-color:#f8f8f8;
+}
+.nav-pills>li>a.audience:focus, .nav-pills>li>a.languages:focus  {
+    color: #333;
+    background-color:#eee;
+}
+
 .languages{
     font-family: 'Open Sans', sans-serif ;
-    color: #777;
-    padding-right: 20px;
+    font-size: 11pt;
+    color: #888;
 }
 .nav-pills>li>a.languages{
     border-radius: 2px;
-    padding: 5px 10px 6px;
+    padding: 6px 15px 8px;
 }
-.form-control.search{
-    height: 30px;
+.dropdown-menu.languages{
+    min-width: 40px;
 }
-.btn-default.search-btn, .btn-default.sing-in{
-    height: 30px;
-}
-.btn-default.sing-in{
-    margin-left: 0px;
-    padding-top: 4px;
-}
-.col-xs-2.sing-in-btn{
-    padding-left: 0;
-}
+
+
 /*
 title row style
 */
+.row.header{
+    margin-bottom: 20px;
+}
 #amcp_logo {
     margin: 5px 0px 0px 20px;
     height: 100px;
@@ -39,11 +64,9 @@ title row style
     height: 100px;
     margin-left: -20px;
     margin-top: 7px;
-
 }
 
 .title-col{
-    margin-bottom: 10px;
     padding-left: -5px;
     font-family: 'Open Sans', sans-serif ;
 }
@@ -58,38 +81,13 @@ title row style
     font-weight: 600;
 }
 
-/*
-audience row style
-*/
-ul.audience{
-    margin-left: 18px;
-}
-ul.audience li{
-    display: inline; /* Отображать как строчный элемент */
-    margin-top: 0;
-    padding: 3px; /* Поля вокруг текста */
-}
-.nav-pills>li>a.audience{
-    color: #555;
-    font-family: 'Open Sans', sans-serif ;
-    font-size: 12pt;
-    border-radius: 2px;
-}
-.nav>li>a.audience {
-    padding: 8px 15px;
-}
-.nav-pills>li>a.audience:hover {
-    background-color:#f8f8f8;
-}
-.nav-pills>li>a.audience:focus {
-    background-color:#e7e7e7;
-}
+
 
 /*
 main menu style
 */
 .navbar.navbar-default.main-menu{
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     min-height: 30px;
 }
 
@@ -102,7 +100,7 @@ div#navbar-collapse-1.collapse.navbar-collapse.navbar-nav-justified {
     font-family: 'Open Sans', sans-serif;
     font-size: 12pt;
 }
-ul.dropdown-menu>li>a{
+ul.dropdown-menu.main-menu>li>a{
     font-family: 'Open Sans', sans-serif;
     font-size: 11pt;
 }
@@ -131,13 +129,20 @@ img.pano{
 
 button.virtual-tour {
     position: inherit;
-    bottom:2px;
+    bottom: 2px;
     width:100%;
     padding: 10px;
-    background: linear-gradient(to right, transparent 0%, #e5e4e1 40%, #e5e4e1 60%, transparent 100%); /*1973b8*/
+    background: linear-gradient(to right, transparent 0%, transparent 10%,
+                                            #efebe5 40%, #efebe5 60%,
+                                            transparent 90%, transparent 100%);
+    box-shadow: 0 0px 10px rgba(0,0,0,0.5);
     opacity: 1;
     border: none;
-
+}
+button.virtual-tour:hover{
+    background: linear-gradient(to right, transparent 0%, transparent 10%,
+    #dfdbd4 40%, #dfdbd4 60%,
+    transparent 90%, transparent 100%);
 }
 a.virtual-tour{
     opacity: 1;
@@ -146,9 +151,9 @@ a.virtual-tour{
     font-size: 12pt;
 }
 a.virtual-tour:hover, a.virtual-tour:focus{
-    font-weight: 600;
-    color: #000;
     text-decoration: none;
+    color: #000;
+
 }
 
 
