@@ -51,9 +51,9 @@ a#professor:hover, a#professor:focus{
     background-color: transparent;
 }
 
-.nav-pills>li>a.languages:focus  {
+.nav-pills>li>a.languages:hover, .nav-pills>li>a.languages:focus  {
     color: #333;
-    background-color:#eee;
+    background-color:#f8f8f8;
 }
 
 .languages{
@@ -62,7 +62,7 @@ a#professor:hover, a#professor:focus{
     color: #888;
 }
 .nav-pills>li>a.languages{
-    border-radius: 2px;
+    border-radius: 3px;
     padding: 5px 10px 8px;
 }
 .dropdown-menu.languages{
