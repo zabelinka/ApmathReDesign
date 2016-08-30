@@ -183,8 +183,16 @@ faculty news
 
 .news>.news-item{
     background-color: white;
-    padding: 8px 10px 5px ;
-    margin-bottom: 10px;
+    padding: 0px 10px 0px ;
+    margin-bottom: 15px;
+    margin-top: 8px;
+    border-left: 3px solid transparent;
+
+
+    border-image: linear-gradient(to bottom,
+    #2675D0 0%, #2675d0 6%, #e43f51 30%, #e43f51 36%,
+    #58b028 63%, #58B028 69%, #E3D23E 94%, #E3D23E 100% );
+    border-image-slice: 1;
 }
 .news>.news-item>h5{
     margin-top: 0px;
