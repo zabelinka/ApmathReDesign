@@ -190,8 +190,8 @@ faculty news
 
 
     border-image: linear-gradient(to bottom,
-    #2675D0 0%, #2675d0 6%, #e43f51 30%, #e43f51 36%,
-    #58b028 63%, #58B028 69%, #E3D23E 94%, #E3D23E 100% );
+        rgba(38, 117, 208, 0.5) 0%, rgba(38, 117, 208, 0.5) 6%, rgba(228, 63, 81, 0.5) 30%, rgba(228, 63, 81, 0.5) 36%,
+        rgba(88, 176, 40, 0.5) 63%, rgba(88, 176, 40, 0.5) 69%, rgba(227, 210, 62, 0.5) 94%, rgba(227, 210, 62, 0.5) 100% );
     border-image-slice: 1;
 }
 .news>.news-item>h5{
