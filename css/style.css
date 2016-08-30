@@ -2,8 +2,8 @@
 header row styles
 */
 .header-row{
-    padding-top: 6px;
-    margin-bottom: 10px;
+    padding-top: 5px;
+    margin-bottom: 13px;
     /*background-color: #f8f9f7;*/
 }
 
@@ -21,16 +21,37 @@ ul.audience>li{
     color: #555;
     font-family: 'Open Sans', sans-serif ;
     font-size: 11pt;
-    border-radius: 2px;
+    border-radius: 0;
 }
 .nav>li>a.audience {
-    padding: 6px 15px 8px;
+    padding: 6px 5px 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 3px solid transparent;
 }
-.nav-pills>li>a.audience:hover, .nav-pills>li>a.languages:hover  {
-    color: inherit;
-    background-color:#f8f8f8;
+.nav-pills>li>a.audience:hover, .nav-pills>li>a.audience:focus {
+    background-color: transparent;
+    color: #333;
 }
-.nav-pills>li>a.audience:focus, .nav-pills>li>a.languages:focus  {
+
+a#entrant:hover, a#entrant:focus{
+     border-color: #2675D0;
+     background-color: transparent;
+ }
+a#student:hover, a#student:focus{
+    border-color: #e43f51;
+    background-color: transparent;
+}
+a#graduate:hover, a#graduate:focus{
+    border-color: #58b028;
+    background-color: transparent;
+}
+a#professor:hover, a#professor:focus{
+    border-color: #E3D23E;
+    background-color: transparent;
+}
+
+.nav-pills>li>a.languages:focus  {
     color: #333;
     background-color:#eee;
 }
@@ -42,7 +63,7 @@ ul.audience>li{
 }
 .nav-pills>li>a.languages{
     border-radius: 2px;
-    padding: 6px 10px 8px;
+    padding: 5px 10px 8px;
 }
 .dropdown-menu.languages{
     min-width: 40px;
@@ -92,8 +113,8 @@ main menu style
 }
 
 div#navbar-collapse-1.collapse.navbar-collapse.navbar-nav-justified {
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 0;
+    padding-left: 0;
 }
 .nav-pills>li>a.menu{
     color:#555;
@@ -167,12 +188,12 @@ faculty news
 */
 
 .col-sm-9.news-box{
-    padding-right: 1px;
+    padding-right: 20px;
 }
 .news{
     font-family: 'Open Sans', sans-serif;
     margin-top: 4px;
-    padding: 10px 20px 20px;
+    padding: 10px 0px 20px 0;
     /*background-color: #fbfbf4;*/
 }
 .news>h3{
@@ -225,7 +246,7 @@ faculty news
 spbu news
 */
 .col-sm-3.news-box{
-    padding-left: 1px;
+    padding-left: 20px;
 }
 .spbu-news>.content, .spbu-info>.content{
     border-right: 3px solid transparent;
