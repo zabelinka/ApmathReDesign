@@ -207,11 +207,6 @@ faculty news
     padding: 0px 10px 0px ;
     margin-bottom: 15px;
     margin-top: 8px;
-    border-left: 3px solid transparent;
-    border-image: linear-gradient(to bottom,
-    #2675D0 0%, #2675d0 6%, #e43f51 30%, #e43f51 36%,
-    #58b028 63%, #58B028 69%, #E3D23E 94%, #E3D23E 100% );
-    border-image-slice: 1;
 }
 .news>.news-item>h5{
     margin-top: 0px;
@@ -248,14 +243,8 @@ spbu news
 .col-sm-3.news-box{
     padding-left: 20px;
 }
-.spbu-news>.content, .spbu-info>.content{
-    border-right: 3px solid transparent;
-    border-image: linear-gradient(to bottom,
-    #2675D0 0%, #2675d0 6%, #e43f51 30%, #e43f51 36%,
-    #58b028 63%, #58B028 69%, #E3D23E 94%, #E3D23E 100% );
-    border-image-slice: 1;
-}
-.spbu-news>.content>.spbu-news-item, .spbu-info>.content>.spbu-info-item{
+
+.spbu-news>.spbu-news-item, .spbu-info>.spbu-info-item{
     padding: 5px 15px 5px 10px ;
 }
 .spbu-news>h3, .spbu-info>h3{
@@ -263,16 +252,20 @@ spbu news
     margin-top: 16px;
     margin-bottom: 20px;
 }
-.spbu-news>.content>.spbu-news-item>h5, .spbu-info>.content>.spbu-info-item>h5{
+.spbu-news>.spbu-news-item>h5, .spbu-info>.spbu-info-item>h5{
     margin-top: 0px;
     font-size: 11pt;
 }
-.spbu-news>.content>.spbu-news-item>h5>a, .spbu-info>.content>.spbu-info-item>h5>a{
+.spbu-news>.spbu-news-item>h5>a, .spbu-info>.spbu-info-item>h5>a{
     color: #555;
 }
-.spbu-news>.content>.spbu-news-item>h5>a:hover, .spbu-news>.content>.spbu-news-item>h5>a:focus{
+.spbu-news>.spbu-news-item>h5>a:hover, .spbu-news>.spbu-news-item>h5>a:focus{
 /*    text-decoration: none;*/
 }
 .spbu-info{
     margin-top: 2px;
 }
+
+/*linear-gradient(to bottom,
+    #2675D0 0%, #2675d0 6%, #e43f51 30%, #e43f51 36%,
+    #58b028 63%, #58B028 69%, #E3D23E 94%, #E3D23E 100% );*/
