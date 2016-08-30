@@ -172,20 +172,18 @@ faculty news
 .news{
     font-family: 'Open Sans', sans-serif;
     margin-top: 4px;
-    padding-right: 25px;
-    padding-left: 25px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    background-color: #f9f7f4;
+    padding: 10px 20px 20px;
+    /*background-color: #fbfbf4;*/
 }
 .news>h3{
     margin-top: 10px;
     margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 .news>.news-item{
     background-color: white;
-    padding: 8px 15px 5px ;
+    padding: 8px 10px 5px ;
     margin-bottom: 10px;
 }
 .news>.news-item>h5{
@@ -214,19 +212,22 @@ faculty news
     max-width: 100%;
     margin-bottom: 15px;
 }
+.news>.news-item>hr, .news>.spbu-news-item>hr, .news>.spbu-info-item>hr{
+    margin: 5px 0px 0px;
+}
 /*
 spbu news
 */
 .col-sm-3.news-box{
     padding-left: 1px;
 }
-
 .spbu-news>.spbu-news-item, .spbu-info>.spbu-info-item{
     padding: 5px 10px 5px ;
 }
 .spbu-news>h3, .spbu-info>h3{
     font-size: 14pt;
     margin-top: 16px;
+    margin-bottom: 20px;
 }
 .spbu-news>.spbu-news-item>h5, .spbu-info>.spbu-info-item>h5{
     margin-top: 0px;
