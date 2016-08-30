@@ -27,13 +27,13 @@
 <div class="container">
 
     <div class="row header-row">
-        <div class="col-md-9">
+        <div class="col-md-9 col-xs-12">
             <ul class="nav nav-pills audience">
                 <li><a class="audience" href="#">Абитуриентам</a></li>
                 <li><a class="audience" href="#">Студентам</a></li>
                 <li><a class="audience" href="#">Выпускникам</a></li>
                 <li><a class="audience" href="#">Преподавателям</a></li>
-                <li class="navbar-right languages"><a class="languages" href="#">Chinese</a></li>
+                <li class="navbar-right languages"><a class="languages" href="#">中文</a></li>
                 <li class="navbar-right languages"><a class="languages" href="#">English</a></li>
             </ul>
         </div>
@@ -66,27 +66,28 @@
 
         </div>
         <div class="col-md-4">
-            <img id="spbu_block" src="images/spbu_block.png">
+            <a href="http://spbu.ru/"><img id="spbu_block" src="images/spbu_block.png"></a>
         </div>
 
 
     </div>
 
- <!--   <div class="row audience">
-        <div class="col-md-offset-1 col-md-11">
-            <ul class="nav nav-pills audience">
-                <li role="presentation"><a class="audience" href="#">Абитуриентам</a></li>
-                <li role="presentation"><a class="audience" href="#">Студентам</a></li>
-                <li role="presentation"><a class="audience" href="#">Выпускникам</a></li>
-                <li role="presentation"><a class="audience" href="#">Преподавателям</a></li>
-            </ul>
-        </div>
-    </div>
--->
+    <!--   <div class="row audience">
+           <div class="col-md-offset-1 col-md-11">
+               <ul class="nav nav-pills audience">
+                   <li role="presentation"><a class="audience" href="#">Абитуриентам</a></li>
+                   <li role="presentation"><a class="audience" href="#">Студентам</a></li>
+                   <li role="presentation"><a class="audience" href="#">Выпускникам</a></li>
+                   <li role="presentation"><a class="audience" href="#">Преподавателям</a></li>
+               </ul>
+           </div>
+       </div>
+   -->
     <nav class="navbar navbar-default main-menu">
         <div class="main-menu">
             <div class="navbar-header" data-toggle="collapse" data-target="#navbar-collapse-1">
-                <button type="button" class="navbar-toggle collapsed navbar-toggle-center" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <button type="button" class="navbar-toggle collapsed navbar-toggle-center" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="glyphicon glyphicon-menu-hamburger"></span>
                     <span class="navmenu"> Меню</span>
@@ -94,7 +95,7 @@
             </div>
             <div class="collapse navbar-collapse navbar-nav-justified" id="navbar-collapse-1">
                 <ul class="nav nav-pills nav-justified main-menu">
-                    <li  role="presentation" class="dropdown">
+                    <li role="presentation" class="dropdown">
                         <a class="menu dropdown-toggle" data-toggle="dropdown" href="#"
                            role="button" aria-haspopup="true" aria-expanded="false">
                             Факультет <span class="caret"></span>
@@ -108,7 +109,7 @@
                         </ul>
                     </li>
 
-                    <li  role="presentation" class="dropdown">
+                    <li role="presentation" class="dropdown">
                         <a class="menu dropdown-toggle" data-toggle="dropdown" href="#"
                            role="button" aria-haspopup="true" aria-expanded="false">
                             Структура <span class="caret"></span>
@@ -122,7 +123,7 @@
                         </ul>
                     </li>
 
-                    <li  role="presentation" class="dropdown">
+                    <li role="presentation" class="dropdown">
                         <a class="menu dropdown-toggle" data-toggle="dropdown" href="#"
                            role="button" aria-haspopup="true" aria-expanded="false">
                             Учебная деятельность <span class="caret"></span>
@@ -136,7 +137,7 @@
                         </ul>
                     </li>
 
-                    <li  role="presentation" class="dropdown">
+                    <li role="presentation" class="dropdown">
                         <a class="menu dropdown-toggle" data-toggle="dropdown" href="#"
                            role="button" aria-haspopup="true" aria-expanded="false">
                             Наука <span class="caret"></span>
@@ -158,41 +159,184 @@
     </nav>
 
 
-
-
-
-
     <div class="row">
         <div class="col-xs-12">
 
             <div id="img_container">
                 <img class="pano" src="images/faculty_pano_summer_btn.jpg"/>
-                <button class="virtual-tour"> <a class="virtual-tour" href="http://www.apmath.spbu.ru/vtour/">Виртуальный тур по факультету </a></button>
+                <button class="virtual-tour"><a class="virtual-tour" href="http://www.apmath.spbu.ru/vtour/">
+                    Виртуальный тур по факультету </a></button>
             </div>
         </div>
     </div>
 
 
-
-
     <div class="row">
-        <div class="col-lg-12">
-            <p>
-                <br>
-                <br>
-                Устаревший браузер Internet Explorer 6 не работает с полупрозрачностью в PNG-24, если по каким-либо
-                причинам необходимо поддерживать этот браузер, для него придется использовать скрипты.
+        <div class="col-sm-9 news-box">
+            <div class="news">
+                <h3>Новости</h3>
 
-                Приведенный метод имеет ряд ограничений. Так, при отключении картинок в браузере,
-                фон исчезнет вообще. К тому же не так легко изменить цвет фона и значение прозрачности, для этого
-                придется опять редактировать изображение.
+                <div class="news-item">
 
-                Клетчатое изображение
-                Этот метод относится совсем к древним способам реализации полупрозрачности, когда браузеры «ничего
-                не умели», и приходилось искать нешаблонные решения. Фокус состоит в создании изображения, в котором
-                чередуются прозрачные и непрозрачные пикселы (рис. 3). Такая регулярная структура создает эффект
-                полупрозрачности, по сути его имитируя.
-            </p>
+                    <h5>Организационное собрание для студентов 1 курса</h5>
+                    <p>
+                        Собрание состоится <b>01.09.2016</b> в <b>13:00</b> по адресу: <b>Университетский проспект,
+                        д.28, ауд. 03
+                        (здание мат-мех)</b>
+                    </p>
+                    <p><a href="http://mat-mex.ru/pictures/other/mm_plan_skazka_2009.jpg">Как найти аудиторию 03 на мат-мехе</a></p>
+
+                    <div class="news-item info">
+                        <ul>
+                            <li class="date">25.08.2016</li>
+                            <li class="source">Студенческий совет</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="news-item">
+
+                    <h5>Посвящение в студенты СПбГУ</h5>
+                    <p>
+                        <b>31 августа</b> в Санкт-Петербургском университете пройдет традиционный праздник всех
+                        первокурсников —
+                        "Посвящение в студенты СПбГУ".
+                    </p>
+                    <p>В программе:
+                    <ul>
+                        <li>Клятва универсанта</li>
+                        <li>Поздравление ректора СПбГУ, почетных гостей и друзей университета</li>
+                        <li>Запуск "корабликов надежды" в акватории Невы</li>
+                    </ul>
+                    Сбор гостей в 11:00 на площади Академика Сахарова.</b>
+                    </p>
+                    <img class="news-img" src="images/spbu_holiday.png">
+
+                    <div class="news-item info">
+                        <ul>
+                            <li class="date">25.08.2016</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <h5>Списки первокурсников по академическим группам</h5>
+                    <ul>
+                        <li>
+                            <a href="#">1 курс бакалавры</a>
+                        </li>
+                    </ul>
+
+                    <div class="news-item info">
+                        <ul>
+                            <li class="date">02.12.2015</li>
+                            <li class="source">Учебный отдел</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <h5>Индивидуальные графики сдачи зачетов и экзаменов</h5>
+                    <ul>
+                        <li><a href="#">Индивидуальный график. Сидоров С. С.</a></li>
+                        <li><a href="#">Индивидуальный график. Петров П. П.</a></li>
+                        <li><a href="#">Индивидуальные графики. Магистры</a></li>
+                    </ul>
+
+                    <div class="news-item info">
+                        <ul>
+                            <li class="date">31.01.2012</li>
+                            <li class="source">Учебный отдел</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <h5>Независимое тестирование по английскому языку</h5>
+                    <p>
+                        Приказом № 5029/1 от 17.06.2016 года «О подготовке к проведению независимого тестирования
+                        по английскому языку в 2016/2017 учебном году» утверждены <b>сроки проведения независимого
+                        тестирования по английскому языку</b>, проводимого Центром лингводидактического тестирования
+                        СПбГУ:
+                    </p>
+                    <ul>
+                        <li>в осеннем семестре – с 07 по 11 ноября 2016 года;</li>
+                        <li>в весеннем семестре – с 03 по 07 апреля 2017 года.</li>
+                    </ul>
+                    <p>
+                        Все обучащиеся по основным образовательным программам бакалавриата и специалитета СПбГУ могут
+                        <a href="http://testing.spbu.ru/content/news/2016-07-05.pdf">подать личные заявления</a>
+                        о допуске к прохождению независимого тестирования по английскому языку,
+                        проводимого Центром лингводидактического тестирования СПбГУ в следующие сроки:
+                    </p>
+                    <ul>
+                        <li>до 20 сентября 2016 года для тестирования, проводимого в осеннем семестре;</li>
+                        <li>до 01 марта 2017 года для тестирования, проводимого в весеннем семестре.</li>
+                    </ul>
+
+                    <p>  Подать личное заявление следует в учебном отделе соответствующего направления подготовки.
+                        Приказом 639/1 от 04.02.2016 утверждена форма заявления и порядок процедуры подачи заявления на
+                        прохождение тестирования в Центре лингводидактического тестирования.
+                    </p>
+                    <p><b>Студенты, успешно прошедшие независимое тестирование</b> по английскому языку в Центре
+                        лингводидактического тестирования СПбГУ по тесту Второго сертификационного уровня (В2), то есть
+                        набравшие проходной балл, <b>получают сертификат СПбГУ, подтверждающий уровень владения английским
+                        языком.</b>
+                    </p>
+                    <p>Тест второго сертификационного уровня СПбГУ прошел международную экспертизу на соответствие
+                        уровню В2 Общеевропейской шкалы иноязычной коммуникативной компетенции (CEFR). В соответствии с
+                        результатами данной экспертизы, сертификат СПбГУ по Тесту второго сертификационного уровня,
+                        наравне с другими международными экзаменационными системами, такими как Cambridge, TOEFL, IELTS,
+                        подтверждает уровень английским языком, соответствующий уровню В2 Общеевропейской шкалы.
+                    </p>
+                    <p>В соответствии с приказом от 05.02.2016 г. № 668/1 «О контроле сформированности иноязычной
+                        коммуникативной компетенции в 2016 году», успешное прохождение испытаний на соответствие уровню
+                        В2, организованных в СПбГУ, как и предоставление признаваемого в СПбГУ сертификата,
+                        подтверждающего владение английским языком на уровне В2, <b>позволяет также получить оценку
+                        «зачтено» по английскому языку.</b>
+                    </p>
+
+                    <div class="news-item info">
+                        <ul>
+                            <li class="date">13.07.2016</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-3 news-box">
+            <div class="spbu-news news">
+                <h3>Новости СПбГУ</h3>
+
+                <div class="spbu-news-item">
+                    <h5><a href="#">Краткий отчет о ректорском совещании 22 августа</a></h5>
+                </div>
+
+                <div class="spbu-news-item">
+                    <h5><a href="#">Минобрнауки: СПбГУ принял абитуриентов с самым высоким баллом ЕГЭ в стране</a></h5>
+                </div>
+
+                <div class="spbu-news-item">
+                    <h5><a href="#">СПбГУ принимает иностранных студентов</a></h5>
+                </div>
+            </div>
+            <div class="spbu-info news">
+                <h3>Информация СПбГУ</h3>
+
+                <div class="spbu-info-item">
+                    <h5><a href="#">Краткий отчет о ректорском совещании 22 августа</a></h5>
+                </div>
+
+                <div class="spbu-info-item">
+                    <h5><a href="#">Минобрнауки: СПбГУ принял абитуриентов с самым высоким баллом ЕГЭ в стране</a></h5>
+                </div>
+
+                <div class="spbu-info-item">
+                    <h5><a href="#">СПбГУ принимает иностранных студентов</a></h5>
+                </div>
+            </div>
+
         </div>
     </div>
 
