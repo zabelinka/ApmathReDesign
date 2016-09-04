@@ -266,6 +266,32 @@ spbu news
     margin-top: 2px;
 }
 
+/*
+footer
+*/
+.footer{
+    background-color: #f8f8f8;
+    font-family: 'Open Sans', sans-serif ;
+
+    padding-bottom: 100px;
+}
+.contacts{
+    padding :10px;
+}
+
+.fa-youtube-play{
+    color: #c12025;
+}
+.fa-vk{
+    color: #45668e;
+}
+.fa-rss{
+    color: #ff8013;
+}
+
+
 /*linear-gradient(to bottom,
     #2675D0 0%, #2675d0 6%, #e43f51 30%, #e43f51 36%,
     #58b028 63%, #58B028 69%, #E3D23E 94%, #E3D23E 100% );*/
+
+
