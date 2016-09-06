@@ -311,28 +311,22 @@ i.fa{
     margin-top: 15px;
     border-radius: 20px;
 }
-.banner{
+.banner>a>img{
     width: 100%;
-    height: 130px;
     border-radius: 3px;
 }
 .carousel-inner{
     padding: 0;
     /*background-color: #f7ecb5;*/
 }
-.carousel-inner>#item1 .banner{
-    background-color: #2aabd2;
-}
-.carousel-inner>#item2 .banner{
-    background-color: #e4b9c0;
-}
+
 a.left.carousel-control, a.right.carousel-control{
     width: 50px;
     margin-left: 10px;
     margin-right: 10px;
     background-color: transparent;
     background-image: none;
-    color: #dfdbd4;
+    color: #555;
     font-size:10px;
 }
 
@@ -340,10 +334,16 @@ ol.carousel-indicators{
     bottom: -40px;
 }
 ol.carousel-indicators>li{
-    background-color: #dfdbd4;
-    border-color: #d0ccc5;
+    background-color: #555;
+    border-color: #333;
+    opacity: 0.5;
+ }
+ol.carousel-indicators>li:hover{
+    opacity: 0.7;
 }
-
+ol.carousel-indicators>li.active{
+    background-color: #eee;
+}
 
 
 
