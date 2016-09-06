@@ -158,7 +158,6 @@ button.virtual-tour {
                                             transparent 90%, transparent 100%);
     opacity: 1;
     box-shadow: 0 6px 7px -3px #b8b6b2;
-
     border: none;
 }
 button.virtual-tour:hover{
@@ -171,11 +170,11 @@ a.virtual-tour{
     color: #333;
     font-family: 'Open Sans', sans-serif;
     font-size: 12pt;
+    font-weight: 600;
 }
 a.virtual-tour:hover, a.virtual-tour:focus{
     text-decoration: none;
     color: #000;
-
 }
 
 
