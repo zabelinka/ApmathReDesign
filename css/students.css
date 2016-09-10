@@ -1,4 +1,5 @@
 .navbar.navbar-default.student-navbar{
+    margin-top: 10px;
     min-height: 44px;
     background-color: transparent;
     border: none;
@@ -36,7 +37,7 @@ h3.students{
 
 /*student menu*/
 
-.student-menu{
+/*.student-menu{
     margin-top: 4px;
 }
 .student-menu>.nav.nav-pills.nav-justified>li{
@@ -50,17 +51,17 @@ h3.students{
 }
 #menu-block-2>.nav.nav-pills.nav-stacked{
     /*background-color: rgba(228, 63, 81, 0.51);*/
-    background-image: url(../images/mosaic-center-top.jpg);
+/*    background-image: url(../images/mosaic-center-top.jpg);
     opacity: 0.5;
 }
 #menu-block-3>.nav.nav-pills.nav-stacked{
     /*background-color: rgba(88, 176, 40, 0.5);*/
-    background-image: url(../images/mosaic-center-bottom.jpg);
+/*    background-image: url(../images/mosaic-center-bottom.jpg);
     opacity: 0.5;
 }
 #menu-block-4>.nav.nav-pills.nav-stacked{
     /*background-color: rgba(227, 210, 62, 0.51);*/
-    background-image: url(../images/mosaic-right-bottom.jpg);
+/*    background-image: url(../images/mosaic-right-bottom.jpg);
     opacity: 0.5;
     margin-left: 30px;
 }
@@ -88,5 +89,42 @@ h3.students{
 .menu-block>.nav-stacked>li>a:hover, .student-menu>.nav-stacked>li>a:focus{
     background-color: transparent;
     color: black;
+}*/
+
+.student-menu{
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    text-align: center;
+    border-radius: 4px;
 }
 
+#menu-block-1>.nav-stacked>li {
+    /*padding-left: 10px;*/
+}
+#menu-block-2>.nav-stacked>li {
+   /* padding-right: 10px;*/
+}
+.col-md-6.student-menu{
+    padding:0;
+}
+#menu-center{
+    background: url(../images/mosaic-combo.jpg);
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.menu-block>.nav-stacked>li{
+    margin-top: 0;
+    padding: 10px 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.menu-block>.nav-stacked>li>a{
+    color: #333;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.menu-block>.nav-stacked>li>a:hover, .student-menu>.nav-stacked>li>a:focus{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
