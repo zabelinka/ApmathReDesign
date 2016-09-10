@@ -1,0 +1,77 @@
+.content{
+}
+
+.profile{
+    float: right;!important;
+    margin: 3px 0;
+}
+.btn.btn-default.profile-btn:hover, .btn.btn-default.profile-btn:focus{
+    background-color: #f8f8f8;
+    border-color: #e3e3e3;
+}
+.profile-image{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+    margin-left:  -5px;
+}
+.profile.dropdown-menu{
+    right: 0;!important;
+}
+
+h3.students{
+    margin: 10px 20px;
+
+}
+
+/*student menu*/
+
+.student-menu{
+    margin-top: 4px;
+}
+.student-menu>ul>li.menu-block{
+    margin: 20px;
+}
+#menu-block-1{
+    background-color: rgba(38, 117, 208, 0.51);
+}
+#menu-block-2{
+    background-color: rgba(228, 63, 81, 0.51);
+}
+#menu-block-3{
+    background-color: rgba(88, 176, 40, 0.5);
+}
+#menu-block-4{
+    background-color: rgba(227, 210, 62, 0.51);
+}
+.menu-block{
+    text-align: center;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.menu-block>.nav-stacked>li{
+    background-color: transparent;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    margin-top: 0;
+
+    padding-top: 10px ;
+    padding-bottom: 10px;
+
+
+}
+
+.menu-block>.nav-stacked>li>a{
+    color: #333;
+}
+.menu-block>.nav-stacked>li:hover, .student-menu>.nav-stacked>li:focus{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.menu-block>.nav-stacked>li>a:hover, .student-menu>.nav-stacked>li>a:focus{
+    background-color: transparent;
+    color: black;
+}
+
