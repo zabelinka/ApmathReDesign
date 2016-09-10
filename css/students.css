@@ -1,13 +1,23 @@
-.content{
+.navbar.navbar-default.student-navbar{
+    min-height: 44px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #e43f51;
+    border-radius: 0;
 }
-
-.profile{
-    float: right;!important;
-    margin: 3px 0;
+h3.students{
+    margin-top: 7px;
+}
+.btn.btn-default.profile-btn{
+    border: none;
 }
 .btn.btn-default.profile-btn:hover, .btn.btn-default.profile-btn:focus{
     background-color: #f8f8f8;
-    border-color: #e3e3e3;
+    box-shadow: none;
+}
+.open>.dropdown-toggle.btn-default.profile-btn:focus, .open>.dropdown-toggle.btn-default.profile-btn:hover {
+    background-color: #f8f8f8;
+    box-shadow: none;
 }
 .profile-image{
     height: 30px;
@@ -18,50 +28,55 @@
 .profile.dropdown-menu{
     right: 0;!important;
 }
-
-h3.students{
-    margin: 10px 20px;
-
+.profile-btn>span.caret{
+    margin-left: 5px;
 }
+
+
 
 /*student menu*/
 
 .student-menu{
     margin-top: 4px;
 }
-.student-menu>ul>li.menu-block{
-    margin: 20px;
+.student-menu>.nav.nav-pills.nav-justified>li{
+    margin-left: 20px;
 }
-#menu-block-1{
-    background-color: rgba(38, 117, 208, 0.51);
+
+#menu-block-1>.nav.nav-pills.nav-stacked{
+    background-image: url(../images/mosaic-left-bottom.jpg);
+    opacity: 0.5;
+    margin-right: 30px;
 }
-#menu-block-2{
-    background-color: rgba(228, 63, 81, 0.51);
+#menu-block-2>.nav.nav-pills.nav-stacked{
+    /*background-color: rgba(228, 63, 81, 0.51);*/
+    background-image: url(../images/mosaic-center-top.jpg);
+    opacity: 0.5;
 }
-#menu-block-3{
-    background-color: rgba(88, 176, 40, 0.5);
+#menu-block-3>.nav.nav-pills.nav-stacked{
+    /*background-color: rgba(88, 176, 40, 0.5);*/
+    background-image: url(../images/mosaic-center-bottom.jpg);
+    opacity: 0.5;
 }
-#menu-block-4{
-    background-color: rgba(227, 210, 62, 0.51);
+#menu-block-4>.nav.nav-pills.nav-stacked{
+    /*background-color: rgba(227, 210, 62, 0.51);*/
+    background-image: url(../images/mosaic-right-bottom.jpg);
+    opacity: 0.5;
+    margin-left: 30px;
 }
 .menu-block{
     text-align: center;
     border: 1px solid #e3e3e3;
     border-radius: 4px;
-    margin-left: 10px;
 }
 
 .menu-block>.nav-stacked>li{
     background-color: transparent;
-
     font-family: 'Open Sans', sans-serif;
     font-size: medium;
     margin-top: 0;
-
     padding-top: 10px ;
     padding-bottom: 10px;
-
-
 }
 
 .menu-block>.nav-stacked>li>a{
