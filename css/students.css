@@ -35,61 +35,6 @@ h3.students{
 
 
 
-/*student menu*/
-
-/*.student-menu{
-    margin-top: 4px;
-}
-.student-menu>.nav.nav-pills.nav-justified>li{
-    margin-left: 20px;
-}
-
-#menu-block-1>.nav.nav-pills.nav-stacked{
-    background-image: url(../images/mosaic-left-bottom.jpg);
-    opacity: 0.5;
-    margin-right: 30px;
-}
-#menu-block-2>.nav.nav-pills.nav-stacked{
-    /*background-color: rgba(228, 63, 81, 0.51);*/
-/*    background-image: url(../images/mosaic-center-top.jpg);
-    opacity: 0.5;
-}
-#menu-block-3>.nav.nav-pills.nav-stacked{
-    /*background-color: rgba(88, 176, 40, 0.5);*/
-/*    background-image: url(../images/mosaic-center-bottom.jpg);
-    opacity: 0.5;
-}
-#menu-block-4>.nav.nav-pills.nav-stacked{
-    /*background-color: rgba(227, 210, 62, 0.51);*/
-/*    background-image: url(../images/mosaic-right-bottom.jpg);
-    opacity: 0.5;
-    margin-left: 30px;
-}
-.menu-block{
-    text-align: center;
-    border: 1px solid #e3e3e3;
-    border-radius: 4px;
-}
-
-.menu-block>.nav-stacked>li{
-    background-color: transparent;
-    font-family: 'Open Sans', sans-serif;
-    font-size: medium;
-    margin-top: 0;
-    padding-top: 10px ;
-    padding-bottom: 10px;
-}
-
-.menu-block>.nav-stacked>li>a{
-    color: #333;
-}
-.menu-block>.nav-stacked>li:hover, .student-menu>.nav-stacked>li:focus{
-    background-color: rgba(255, 255, 255, 0.3);
-}
-.menu-block>.nav-stacked>li>a:hover, .student-menu>.nav-stacked>li>a:focus{
-    background-color: transparent;
-    color: black;
-}*/
 
 .student-menu{
     font-family: 'Open Sans', sans-serif;
@@ -149,10 +94,13 @@ h3.students{
 .nav-stacked.menu-side>li{
     margin-top: 0;
     padding: 10px 20px;
-    background-color: rgba(241, 238, 236, 0.53);
 }
+.nav-stacked.menu-side>li>a{
+    background-color: #f8f8f8;
+}
+
 .nav-stacked.menu-side>li>a:hover, .nav-stacked.menu-side>li>a:focus{
-    background-color: rgba(241, 238, 236, 0.53);
+    background-color: #eee;
     color: black;
 }
 
