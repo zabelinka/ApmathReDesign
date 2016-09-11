@@ -337,11 +337,15 @@ spbu news
 footer
 */
 .footer{
-    background-color: #fbf9f5;
     font-family: 'Open Sans', sans-serif ;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.footer-content{
+    background-color: #fbf9f5;
 }
 .contacts, .links{
-    padding :10px 10px 0;
+    padding :10px 0 0;
 }
 .footer h5{
     font-weight: 600;
@@ -368,6 +372,44 @@ i.fa{
     font-size: small;
     font-family: 'Open Sans', sans-serif;
     font-weight: 200;
-    padding: 20px 20px 10px;
+    padding: 10px 10px 10px;
     margin-bottom: 0;
+}
+
+/*-------------------------------------------------------------------------------*/
+/*general for all files*/
+
+/*
+breadcrumb
+*/
+
+.navbar.navbar-default.content-navbar{
+    margin-top: 0;
+    min-height: 44px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #e43f51;
+    border-radius: 0;
+}
+
+.breadcrumb.header-breadcrump{
+    background-color: transparent;
+    padding-left:0;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+.breadcrumb>li+li.active:before{
+    color: #888;
+}
+.breadcrumb a{
+    text-decoration: none;
+    color: #888;
+}
+.breadcrumb a:hover, .breadcrumb a:focus{
+    color: #555;
+}
+
+.breadcrumb li.active{
+    font-size: x-large;
+    color: #333;
 }
