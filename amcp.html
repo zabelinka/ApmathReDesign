@@ -21,162 +21,21 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+
+
+    <link rel="import" href="intro.html">
+
 </head>
 <body>
 
+<!-- import header -->
+<script>
+    var link = document.querySelector('link[rel=import]');
+    var content = link.import.querySelector('#header');
+    document.body.appendChild(content.cloneNode(true));
+</script>
 
 <div class="container">
-
-    <div class="row header-row">
-        <div class="col-md-9 col-xs-12">
-            <ul class="nav nav-pills audience">
-                <li><a class="audience" id="entrant" href="#">Абитуриентам</a></li>
-                <li><a class="audience" id="student" href="students.html">Студентам</a></li>
-                <li><a class="audience" id="graduate" href="#">Выпускникам</a></li>
-                <li><a class="audience" id="professor" href="#">Преподавателям</a></li>
-                <li class="navbar-right languages"><a class="languages" href="#">中文</a></li>
-                <li class="navbar-right languages"><a class="languages" href="#">English</a></li>
-            </ul>
-        </div>
-
-        <div class="col-sm-3 col-xs-5">
-            <div class="input-group">
-                <input type="text" class="form-control search" placeholder="Поиск">
-                <span class="input-group-btn">
-                    <button class="btn btn-default search-btn" type="button">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </button>
-                </span>
-            </div><!-- /input-group -->
-        </div>
-
-
-    </div>
-    <div class="row header">
-        <div class="col-md-8">
-            <div class="row">
-                <div class="col-md-2">
-                    <a href="amcp.html">
-                        <img id="amcp_logo" src="images/amcp_logo.png">
-                    </a>
-                </div>
-                <div class="col-md-8 title-col">
-                    <a href="amcp.html">
-                        <h3 class="subtitle">ФАКУЛЬТЕТ</h3>
-                        <h1 class="title">ПРИКЛАДНОЙ МАТЕМАТИКИ - <br>ПРОЦЕССОВ УПРАВЛЕНИЯ</h1>
-                    </a>
-                </div>
-            </div>
-
-
-        </div>
-        <div class="col-md-4">
-            <a href="http://spbu.ru/"><img id="spbu_block" src="images/spbu_block.png"></a>
-        </div>
-
-
-    </div>
-
-    <nav class="navbar navbar-default main-menu">
-        <div class="main-menu">
-            <div class="navbar-header" data-toggle="collapse" data-target="#navbar-collapse-1">
-                <button type="button" class="navbar-toggle collapsed navbar-toggle-center" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="glyphicon glyphicon-menu-hamburger"></span>
-                    <span class="navmenu"> Меню</span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse navbar-nav-justified" id="navbar-collapse-1">
-                <ul class="nav nav-pills nav-justified main-menu">
-                    <li role="presentation" class="dropdown">
-                        <a class="menu dropdown-toggle" data-toggle="dropdown" href="#"
-                           role="button" aria-haspopup="true" aria-expanded="false">
-                            Факультет <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu main-menu">
-                            <li><a href="#">О нас</a></li>
-                            <li><a href="#">История</a></li>
-                            <li><a href="#">Фотогалерея</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Виртуальная приемная</a></li>
-                            <li><a href="#">Деканские совещания</a></li>
-                            <li><a href="#">Встречи декана со студентами</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Библиотека</a></li>
-                            <li><a href="#">Выпускники</a></li>
-                            <li><a href="#">Ссылки</a></li>
-                        </ul>
-                    </li>
-
-                    <li role="presentation" class="dropdown">
-                        <a class="menu dropdown-toggle" data-toggle="dropdown" href="#"
-                           role="button" aria-haspopup="true" aria-expanded="false">
-                            Структура <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu main-menu">
-                            <li><a href="administration.html">Администрация</a></li>
-                            <li><a href="#">Ученый совет</a></li>
-                            <li><a href="#">Научная комиссия</a></li>
-                            <li><a href="#">Учебно-методическая комиссия</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Кафедры</a></li>
-                            <li><a href="#">Преподаватели</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Профсоюз</a></li>
-                            <li><a href="#">Студенческий совет</a></li>
-
-                        </ul>
-                    </li>
-
-                    <li role="presentation" class="dropdown">
-                        <a class="menu dropdown-toggle" data-toggle="dropdown" href="#"
-                           role="button" aria-haspopup="true" aria-expanded="false">
-                            Учебная деятельность <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu main-menu">
-                            <li><a href="#">Расписание занятий</a></li>
-                            <li><a href="#">Образовательные программы</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Учебный отдел</a></li>
-                            <li><a href="#">Перевод и восстановление</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Государственная итоговая аттестация</a></li>
-                            <li><a href="#">Темы дипломных работ</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Стажировки и конкурсы</a></li>
-                            <li><a href="#">Международная деятельность</a></li>
-                        </ul>
-                    </li>
-
-                    <li role="presentation" class="dropdown">
-                        <a class="menu dropdown-toggle" data-toggle="dropdown" href="#"
-                           role="button" aria-haspopup="true" aria-expanded="false">
-                            Наука <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu main-menu">
-                            <li><a href="#">Диссертационные советы</a></li>
-                            <li><a href="#">Научные проекты</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Конференции</a></li>
-                            <li><a href="#">Конкурсы и гранты</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#"> Центр теории игр</a></li>
-                            <li><a href="#">Contributions to Game Theory and Management</a></li>
-                            <li><a href="#">English Consulting Center for Scientists</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Учебные пособия сотрудников факультета</a></li>
-                        </ul>
-                    </li>
-
-                    <li><a href="#" class="menu">Контакты</a></li>
-
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-
     <div class="row">
         <div class="col-xs-12">
 
@@ -469,64 +328,14 @@
 
     </div>
 
-    <div class="row footer">
-        <div class="col-sm-6">
-            <div class="contacts">
-                <h5>Контакты</h5>
-
-                <div class="official-contacts">
-                    <div class="address">
-                        <i class="fa fa-map-marker fa-lg"></i>
-                        <a href=""> 198504, Санкт-Петербург, Петергоф, Университетский просп., д.35 </a>
-                    </div>
-                    <div class="phone-number">
-                        <i class="fa fa-phone fa-lg"></i>
-                        <a href="tel:+78124287159"> +7 (812) 428 71 59 </a>
-                    </div>
-                    <div class="email">
-                        <i class="fa fa-envelope"></i>
-                        <a href="mailto:priemcom@apmath.spbu.ru"> priemcom@apmath.spbu.ru</a>
-                    </div>
-                </div>
-
-
-            </div>
-
-        </div>
-        <div class="col-sm-6">
-            <div class="links">
-                <h5>Ссылки</h5>
-                <div class="socials">
-                    <div class="vk">
-                        <i class="fa fa-vk fa-lg"></i>
-                        <a href="#">ПМ-ПУ СМИ</a>
-                        <a href="#">Студенческий совет</a>
-                        <a href="#">Абитуриенту</a>
-                    </div>
-
-                    <div class="youtube">
-                        <i class="fa fa-youtube-play fa-lg"></i>
-                        <a href="#">Видеолаборатория UFO</a>
-                        <a href="#">Канал факультета</a>
-                    </div>
-
-                    <div class="rss">
-                        <i class="fa fa-rss fa-lg"></i>
-                        <a href="#"> RSS-лента</a>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row footer">
-        <div class="col-sm-12">
-            <p class="authentic"> © 2016 Факультет Прикладной математики - процессов управления Санкт-Петербургского государственного университета</p>
-        </div>
-    </div>
-
 </div>
 
+<!-- import footer -->
+<script>
+    var link = document.querySelector('link[rel=import]');
+    var content = link.import.querySelector('#footer');
+    document.body.appendChild(content.cloneNode(true));
+</script>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
