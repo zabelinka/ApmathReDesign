@@ -1,5 +1,7 @@
 .content{
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin: 0 10px;
+    border-bottom: 3px solid #e43f51;
 }
 
 .navbar.navbar-default.student-navbar{
@@ -42,7 +44,7 @@ h3.students{
     margin-left: 5px;
 }
 
-
+/*student menu*/
 
 
 .student-menu{
@@ -59,7 +61,7 @@ h3.students{
    /* padding-right: 10px;*/
 }
 .col-md-6.student-menu{
-    padding: 0px;
+    padding: 0;
 }
 .col-md-3.left-menu{
     padding-left: 30px;
@@ -93,11 +95,11 @@ h3.students{
 .menu-block>.nav-stacked>li>a{
     color: #333;
     font-weight: 600;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid #e7e7e7;
 }
 .menu-block>.nav-stacked>li>a:hover, .menu-block>.nav-stacked>li>a:focus{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     color: black;
 }
 
@@ -117,10 +119,3 @@ h3.students{
     color: black;
 }
 
-.left-menu>.student-menu{
-}
-.right-menu>.student-menu{
-    background-size: cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-}

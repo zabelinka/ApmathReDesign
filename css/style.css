@@ -190,6 +190,52 @@ a.virtual-tour:hover, a.virtual-tour:focus{
 }
 
 
+
+
+
+
+/* banners*/
+#banners-carousel{
+    margin-top: 15px;
+    border-radius: 20px;
+}
+.banner>a>img{
+    width: 100%;
+    border-radius: 3px;
+}
+.carousel-inner{
+    padding: 0;
+    /*background-color: #f7ecb5;*/
+}
+
+a.left.carousel-control, a.right.carousel-control{
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+    background-image: none;
+    color: #555;
+    font-size:10px;
+}
+
+ol.carousel-indicators{
+    bottom: -40px;
+}
+ol.carousel-indicators>li{
+    background-color: #555;
+    border-color: #333;
+    opacity: 0.5;
+}
+ol.carousel-indicators>li:hover{
+    opacity: 0.7;
+}
+ol.carousel-indicators>li.active{
+    background-color: #eee;
+}
+
+
+
+
 /*
 news
 */
@@ -277,6 +323,8 @@ spbu news
     margin-top: 2px;
 }
 
+
+
 /*
 footer
 */
@@ -307,62 +355,11 @@ i.fa{
     width: 20px;
     color: #555;
 }
-
-
 .authentic{
     color: #555;
     font-size: small;
     font-family: 'Open Sans', sans-serif;
     font-weight: 200;
     padding: 20px 20px 10px;
+    margin-bottom: 0;
 }
-
-/* banners*/
-#banners-carousel{
-    margin-top: 15px;
-    border-radius: 20px;
-}
-.banner>a>img{
-    width: 100%;
-    border-radius: 3px;
-}
-.carousel-inner{
-    padding: 0;
-    /*background-color: #f7ecb5;*/
-}
-
-a.left.carousel-control, a.right.carousel-control{
-    width: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: transparent;
-    background-image: none;
-    color: #555;
-    font-size:10px;
-}
-
-ol.carousel-indicators{
-    bottom: -40px;
-}
-ol.carousel-indicators>li{
-    background-color: #555;
-    border-color: #333;
-    opacity: 0.5;
- }
-ol.carousel-indicators>li:hover{
-    opacity: 0.7;
-}
-ol.carousel-indicators>li.active{
-    background-color: #eee;
-}
-
-
-
-
-
-
-/*linear-gradient(to bottom,
-    #2675D0 0%, #2675d0 6%, #e43f51 30%, #e43f51 36%,
-    #58b028 63%, #58B028 69%, #E3D23E 94%, #E3D23E 100% );*/
-
-
