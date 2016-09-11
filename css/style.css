@@ -52,18 +52,19 @@ a#professor:hover, a#professor:focus{
 }
 
 .nav-pills>li>a.languages:hover, .nav-pills>li>a.languages:focus  {
-    color: #333;
-    background-color:#f8f8f8;
+    background-color: transparent;
+    border-color: #f1efeb;
 }
 
 .languages{
     font-family: 'Open Sans', sans-serif ;
     font-size: 11pt;
-    color: #888;
+    color: #555;
 }
 .nav-pills>li>a.languages{
-    border-radius: 3px;
-    padding: 5px 10px 8px;
+    border-bottom: 3px solid transparent;
+    border-radius: 0;
+    padding: 6px 5px 4px;
 }
 .dropdown-menu.languages{
     min-width: 40px;
@@ -102,7 +103,10 @@ title row style
     font-weight: 600;
 }
 
-
+.btn.btn-default.search-btn:hover,
+.btn.btn-default.search-btn:focus{
+    background-color: #fbf9f5;
+}
 
 /*
 main menu style
@@ -110,23 +114,31 @@ main menu style
 .navbar.navbar-default.main-menu{
     margin-bottom: 3px;
     min-height: 30px;
+    background-color: #fbf9f5;
+    font-family: 'Open Sans', sans-serif;
 }
-
+.nav-pills>li>a.menu:focus, .nav-pills>li>a.menu:hover {
+    background-color: #f1efeb;
+}
+.nav-pills>li>a.menu{
+    color: #555;
+    font-size: medium;
+    font-weight: 600;
+}
 div#navbar-collapse-1.collapse.navbar-collapse.navbar-nav-justified {
     padding-right: 0;
     padding-left: 0;
 }
-.nav-pills>li>a.menu{
-    color:#555;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12pt;
-}
-ul.dropdown-menu.main-menu>li>a{
+ul.dropdown-menu.main-menu>li>a, .dropdown-menu.profile>li>a{
     font-family: 'Open Sans', sans-serif;
     font-size: 11pt;
 }
-.nav-pills>li>a.menu:focus {
-    background-color:#e1e1e1;
+ul.dropdown-menu.main-menu>li>a:hover,
+.dropdown-menu.profile>li>a:hover,
+ul.dropdown-menu.main-menu>li>a:focus,
+.dropdown-menu.profile>li>a:focus
+{
+    background-color: #fbf9f5;
 }
 span.navmenu{
     font-family: 'Open Sans', sans-serif;
@@ -269,7 +281,7 @@ spbu news
 footer
 */
 .footer{
-    background-color: #f8f8f8;
+    background-color: #fbf9f5;
     font-family: 'Open Sans', sans-serif ;
 }
 .contacts, .links{
