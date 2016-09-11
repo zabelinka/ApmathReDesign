@@ -12,9 +12,30 @@
     border-bottom: 3px solid #e43f51;
     border-radius: 0;
 }
-h3.students{
-    margin-top: 7px;
+
+.student-navbar .breadcrumb{
+    background-color: transparent;
+    padding-left:0;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+
 }
+.breadcrumb>li+li.active:before{
+    color: #888;
+}
+.breadcrumb a{
+    text-decoration: none;
+    color: #888;
+}
+.breadcrumb a:hover, .breadcrumb a:focus{
+    color: #555;
+}
+
+.breadcrumb li.active{
+    font-size: x-large;
+    color: #333;
+}
+
 .btn.btn-default.profile-btn{
     border: none;
 }
@@ -118,4 +139,5 @@ h3.students{
     background-color: #f1efeb;
     color: black;
 }
+
 

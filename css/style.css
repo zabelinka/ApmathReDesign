@@ -92,6 +92,14 @@ title row style
     padding-left: -5px;
     font-family: 'Open Sans', sans-serif ;
 }
+.title-col>a{
+    text-decoration: none;
+    color: #333;
+}
+.title-col>a:hover, .title-col>a:focus{
+    text-decoration: none;
+    color: #333;
+}
 .subtitle{
     margin-top: 7px;
     font-size: 18pt;
