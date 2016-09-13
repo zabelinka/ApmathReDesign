@@ -1,0 +1,39 @@
+.content{
+    padding: 0 15px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 3px solid #e43f51;
+    margin-bottom: 20px;
+}
+
+.content h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #337AB7;
+}
+
+.person-photo{
+    border-radius: 50%;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.administration-block h3{
+    margin-top: 5px;
+}
+ul.person-contacts{
+    padding-left: 0;
+}
+ul.person-contacts>li{
+    display: inline;
+    margin-right: 20px;
+}
+ul.person-contacts>li>i.fa{
+    color: #B7BCC2;
+}
+.administration-block h5{
+    font-weight: 600;
+}
+ul.work-time{
+    list-style-type: none;
+    padding-left: 20px;
+}
