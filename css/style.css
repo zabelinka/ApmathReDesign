@@ -398,9 +398,7 @@ breadcrumb
     padding-bottom: 3px;
     margin-bottom: 0;
 }
-.breadcrumb>li+li.active:before{
-    color: #888;
-}
+
 .breadcrumb a{
     text-decoration: none;
     color: #888;
@@ -412,4 +410,7 @@ breadcrumb
 .breadcrumb li.active{
     font-size: x-large;
     color: #333;
+}
+.breadcrumb.header-breadcrump>li+li::before{
+    font-size: medium;
 }
