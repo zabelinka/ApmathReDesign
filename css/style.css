@@ -176,7 +176,7 @@ button.virtual-tour {
     border-radius: 4px;
 }
 button.virtual-tour:hover{
-
+    background-color: rgba(14, 14, 23, 0.8);
 }
 button.virtual-tour:hover>a, button.virtual-tour:focus>a{
     text-decoration: none;
