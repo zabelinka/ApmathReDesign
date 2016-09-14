@@ -85,10 +85,8 @@
     border: 1px solid #e7e7e7;
 }
 .menu-block>.nav-stacked>li>a:hover, .menu-block>.nav-stacked>li>a:focus{
-    background-color: rgba(255, 255, 255, 0.6);
-    color: black;
-    box-shadow:  black 2px 1px 5px;
-    text-shadow: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
 }
 
 .nav-stacked.menu-side>li{
