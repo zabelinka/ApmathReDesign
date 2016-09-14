@@ -69,7 +69,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(../images/mosaic-combo.jpg);
+    background-image: url(../images/mosaic-combo-blur.jpg);
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -84,9 +84,9 @@
     padding: 10px 35px;
 }
 .menu-block>.nav-stacked>li>a{
-    color: #333;
+    color: white;
     font-weight: 600;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: transparent;
     border: 1px solid #e7e7e7;
 }
 .menu-block>.nav-stacked>li>a:hover, .menu-block>.nav-stacked>li>a:focus{

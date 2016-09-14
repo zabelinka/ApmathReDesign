@@ -67,6 +67,9 @@ a.chevron-toggle:focus>i, a.chevron-toggle:hover>i{
 
 
 /* photos */
+.photo-album{
+    padding-top: 20px;
+}
 
 .photo-album img {
     width: 100%;
