@@ -414,3 +414,35 @@ breadcrumb
 .breadcrumb.header-breadcrump>li+li::before{
     font-size: medium;
 }
+
+
+
+
+
+
+/* images */
+
+div.img:hover {
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px 15px;
+    text-align: center;
+}
+.img>a, .img>a{
+    color: #555;
+    text-decoration: none;
+}
+
+.img>a:hover, .img>a:focus{
+    color: #333;
+    text-decoration: none;
+}
+.img img{
+    border-radius: 3px;
+}

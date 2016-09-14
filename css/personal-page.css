@@ -15,7 +15,9 @@ ul.degree>li{
     padding-bottom: 20px;
     font-size: medium;
 }
-
+.professor-info{
+    margin-bottom: 40px;
+}
 .professor-info>.nav.nav-tabs{
     margin-top: 20px;
     font-family: 'Open Sans', sans-serif;
@@ -62,3 +64,4 @@ a.chevron-toggle:focus>i, a.chevron-toggle:hover>i{
 #teaching>p, .authors{
     font-weight: 600;
 }
+
