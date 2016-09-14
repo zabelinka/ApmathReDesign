@@ -159,43 +159,38 @@ pano image style
 img.pano{
     width: 100%;
     border-radius: 4px;
-    margin-bottom: -40px;
+
 }
 
 #img_container {
-    position:relative;
-    display:inline-block;
     text-align:center;
 }
-
+div.virtual-tour{
+    margin-top: -55px;
+    margin-bottom: 20px;
+}
 button.virtual-tour {
-    position: inherit;
-    bottom: 2px;
-    width:100%;
-    padding: 10px;
-    background: linear-gradient(to right, transparent 0%, transparent 10%,
-                                            #efebe5 40%, #efebe5 60%,
-                                            transparent 90%, transparent 100%);
-    opacity: 1;
-    box-shadow: 0 6px 7px -3px #b8b6b2;
-    border: none;
+    padding: 10px 20px;
+    background-color: rgba(14, 14, 23, 0.6);
+    border: 1px solid #f8f9f7;
+    border-radius: 4px;
 }
 button.virtual-tour:hover{
-    background: linear-gradient(to right, transparent 0%, transparent 10%,
-    #dfdbd4 40%, #dfdbd4 60%,
-    transparent 90%, transparent 100%);
+
+}
+button.virtual-tour:hover>a, button.virtual-tour:focus>a{
+    text-decoration: none;
+    color: white;
 }
 a.virtual-tour{
     opacity: 1;
-    color: #333;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 12pt;
     font-weight: 600;
+    text-shadow: black 2px 2px 10px;
 }
-a.virtual-tour:hover, a.virtual-tour:focus{
-    text-decoration: none;
-    color: #000;
-}
+
 
 
 
