@@ -65,3 +65,27 @@ a.chevron-toggle:focus>i, a.chevron-toggle:hover>i{
     font-weight: 600;
 }
 
+
+/* photos */
+
+.photo-album img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 10px 15px;
+    text-align: center;
+}
+.photo-album>a, .img>a{
+    color: #555;
+    text-decoration: none;
+}
+
+.photo-album>a:hover, .img>a:focus{
+    color: #333;
+    text-decoration: none;
+}
+.photo-album img{
+    border-radius: 3px;
+}
