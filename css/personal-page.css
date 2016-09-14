@@ -1,0 +1,64 @@
+.person-header h2{
+    margin-top: 0;
+}
+ul.degree{
+    list-style-type: none;
+    padding-left: 3px;
+}
+ul.degree>li{
+    font-size: medium;
+    padding-bottom: 5px;
+}
+
+.person-header ul.person-contacts>li{
+    display: inherit;
+    padding-bottom: 20px;
+    font-size: medium;
+}
+
+.professor-info>.nav.nav-tabs{
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+}
+.professor-info>.nav.nav-tabs>li>a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #333;
+}
+.professor-info>.nav.nav-tabs>li.active>a{
+    font-weight: 600;
+}
+.professor-info>.nav.nav-tabs>li.active>a:hover{
+     color: #333;
+ }
+.professor-info>.nav.nav-tabs>li>a:hover{
+    background-color: #f8f9f7;
+}
+.professor-info>.nav.nav-tabs>li>a:focus{
+    background-color: #f1efeb;
+}
+
+.professor-info .tab-pane ul{
+    list-style-type: none;
+    padding-left: 20px;
+}
+.professor-info .tab-pane p{
+    text-indent: 20px;
+}
+
+
+a.chevron-toggle:hover, a.chevron-toggle:focus{
+    text-decoration: none;
+}
+a.chevron-toggle>i{
+    font-size: 16px;
+    color:  #f1efeb;
+}
+a.chevron-toggle:focus>i, a.chevron-toggle:hover>i{
+    color: #e2e0dc;
+}
+
+#teaching>p, .authors{
+    font-weight: 600;
+}
