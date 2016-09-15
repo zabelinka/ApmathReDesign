@@ -156,13 +156,18 @@ span.navmenu{
 /*
 footer
 */
-.footer{
+
+
+.row.footer{
     font-family: 'Open Sans', sans-serif ;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #fbf9f5;
+
 }
 .footer-content{
-    background-color: #fbf9f5;
 }
 .contacts, .links{
     padding :10px 0 0;
