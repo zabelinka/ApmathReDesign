@@ -50,7 +50,37 @@ a#professor:hover, a#professor:focus{
     background-color: transparent;
 }
 
-.nav-pills>li>a.languages:hover, .nav-pills>li>a.languages:focus  {
+
+
+.navbar.navbar-default.search-languages-navbar{
+    background-color: transparent;
+    border:none;
+    margin: 0;
+    padding: 0;
+    min-height: 20px;
+}
+.navbar.navbar-default.search-languages-navbar form{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navbar-nav.audience>li>a{
+    border-bottom: 3px solid transparent;
+    border-radius: 0;
+    padding: 6px 5px 4px;
+    margin-right: 10px;
+}
+
+
+
+
+.navbar.navbar-default.search-languages-navbar
+a.languages,
+li.languages
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navbar-nav.audience>li>a.languages:hover, .navbar-nav.audience>li>a.languages:focus  {
     background-color: transparent;
     border-color: #f1efeb;
 }
@@ -60,13 +90,10 @@ a#professor:hover, a#professor:focus{
     font-size: 11pt;
     color: #555;
 }
-.nav-pills>li>a.languages{
-    border-bottom: 3px solid transparent;
-    border-radius: 0;
-    padding: 6px 5px 4px;
-}
-.dropdown-menu.languages{
-    min-width: 40px;
+
+.btn.btn-default.search-btn:hover,
+.btn.btn-default.search-btn:focus{
+    background-color: #fbf9f5;
 }
 
 
@@ -110,10 +137,7 @@ title row style
     font-weight: 600;
 }
 
-.btn.btn-default.search-btn:hover,
-.btn.btn-default.search-btn:focus{
-    background-color: #fbf9f5;
-}
+
 
 /*
 main menu style
