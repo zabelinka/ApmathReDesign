@@ -148,7 +148,30 @@ title row style
     font-size: 22pt;
     font-weight: 600;
 }
+@media (max-width: 768px){
+    .row.header{
+        margin-top: 10px;
+    }
+    .subtitle{
+        padding: 0 10px;
+        font-size: 12pt;
+    }
+    .title {
+        font-size: 16pt;
+        padding: 0 10px;
+    }
 
+    #amcp_logo{
+        width: 100%;
+        height: auto;
+        margin: 5px;
+    }
+    #spbu_logo{
+        width: 90%;
+        height: auto;
+        margin: 5px;
+    }
+}
 
 
 /*
