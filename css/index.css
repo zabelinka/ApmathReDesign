@@ -13,6 +13,17 @@ div.virtual-tour{
     margin-top: -55px;
     margin-bottom: 20px;
 }
+@media (max-width: 768px) and (min-width: 335px){
+    div.virtual-tour {
+        margin-top: -50px;
+    }
+}
+@media (max-width: 334px){
+    div.virtual-tour {
+        margin-top: -65px;
+    }
+}
+
 button.virtual-tour {
     padding: 10px 20px;
     background-color: rgba(14, 14, 23, 0.6);

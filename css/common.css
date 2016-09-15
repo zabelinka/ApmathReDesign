@@ -107,9 +107,6 @@ li.languages
 /*
 title row style
 */
-.row.header{
-    margin-bottom: 20px;
-}
 #amcp_logo {
     margin: 5px 0 0 10px;
     height: 100px;
@@ -178,6 +175,7 @@ title row style
 main menu style
 */
 .navbar.navbar-default.main-menu{
+    margin-top: 20px;
     margin-bottom: 3px;
     min-height: 30px;
     background-color: #fbf9f5;
