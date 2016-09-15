@@ -96,6 +96,13 @@ li.languages
     background-color: #fbf9f5;
 }
 
+@media (max-width: 1200px){
+    .hidden-xs.hidden-md.hidden-lg.col-sm-1.search{
+        padding-left:0;
+        padding-right: 0;
+    }
+}
+
 
 /*
 title row style
@@ -104,11 +111,16 @@ title row style
     margin-bottom: 20px;
 }
 #amcp_logo {
-    margin: 5px 0 0 20px;
+    margin: 5px 0 0 10px;
     height: 100px;
 }
+@media (min-width: 1200px){
+    #amcp_logo{
+        margin-left: 20px;
+    }
+}
 
-#spbu_block {
+#spbu_block, #spbu_logo{
     height: 100px;
     margin-left: -20px;
     margin-top: 7px;
