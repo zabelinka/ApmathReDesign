@@ -127,6 +127,7 @@ title row style
 .title-col{
     padding-left: -5px;
     font-family: 'Open Sans', sans-serif ;
+
 }
 .title-col>a{
     text-decoration: none;
@@ -156,7 +157,9 @@ title row style
     }
     .title {
         font-size: 16pt;
-        padding: 0 10px;
+        padding: 0 10px 10px;
+        border-bottom: 3px solid #e43f51;
+        margin-bottom: 5px;
     }
 
     #amcp_logo{
@@ -314,6 +317,7 @@ header navbar for xs
 */
 .col-xs-12.navbar-xs{
     padding: 5px;
+    margin-bottom: -20px;
 }
 .navbar.navbar-default.navbar-xs{
     background-color: white;
@@ -330,8 +334,14 @@ header navbar for xs
     color: #333;
 }
 .navbar.navbar-default.navbar-xs .navbar-brand img{
-    max-height: 30px;
-    padding: 0;
+    height: 30px;
+
+}
+#amcp-icon{
+     width: 28px;
+}
+#spbu-icon{
+    margin-left: 10px;
 }
 
 .navbar-xs .navbar-toggle.collapsed{
