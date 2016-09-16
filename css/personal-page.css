@@ -30,9 +30,7 @@ ul.degree>li{
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    .degree{
-        margin-top: 20px;
-    }
+
 }
 
 @media (max-width: 787px) {
@@ -47,10 +45,18 @@ ul.degree>li{
     .person-header ul.person-contacts>li{
         margin-right: 0;
     }
-    .col-xs-12.degree{
+    .col-xs-12.degree, .col-xs-12.professor-info{
         padding: 0;
+        margin-bottom: 0;
     }
 }
+
+@media (min-width: 510px){
+    .degree{
+        margin-top: 10px;
+    }
+}
+
 
 @media (max-width: 490px){
     .col-xs-8.person-contacts{
@@ -59,10 +65,12 @@ ul.degree>li{
 }
 
 
-
-.professor-info{
-    margin-bottom: 40px;
+@media (min-width: 1200px){
+    .professor-info{
+        margin-bottom: 20px;
+    }
 }
+
 .professor-info>.nav.nav-tabs{
     margin-top: 20px;
     font-family: 'Open Sans', sans-serif;
