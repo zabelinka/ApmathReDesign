@@ -4,7 +4,11 @@
     border-bottom: 3px solid #e43f51;
     margin-bottom: 20px;
 }
-
+.tittle-xs{
+    /*border-bottom: 3px solid #e43f51;
+    padding: 0;
+    margin: 0 15px 20px;*/
+}
 .content h2{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -27,6 +31,7 @@ ul.person-contacts>li{
     display: inline;
     margin-right: 20px;
 }
+
 ul.person-contacts>li>i.fa{
     color: #B7BCC2;
 }
@@ -36,4 +41,30 @@ ul.person-contacts>li>i.fa{
 ul.work-time{
     list-style-type: none;
     padding-left: 20px;
+}
+
+
+
+@media (max-width: 767px){
+    ul.person-contacts>li{
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .col-xs-4.person-photo{
+        padding:0;
+
+    }
+}
+
+@media (max-width: 991px){
+    .person-photo{
+        padding: 0;
+    }
+    .administration-block .col-xs-12{
+        padding: 0;
+    }
+    .col-xs-12.info{
+        padding-left: 20px;
+    }
 }
