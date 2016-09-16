@@ -177,7 +177,8 @@ title row style
 /*
 main menu style
 */
-.navbar.navbar-default.main-menu{
+.navbar.navbar-default.main-menu
+{
     margin-top: 20px;
     margin-bottom: 3px;
     min-height: 30px;
@@ -356,8 +357,11 @@ header navbar for xs
 
 
 .navbar-xs .col-xs-6.audience{
+     padding: 0;
+     text-align: center;
+ }
+.navbar-xs .col-xs-12{
     padding: 0;
-    text-align: center;
 }
 
 .navbar-xs .row.row-eq-height.audience{
@@ -419,4 +423,42 @@ header navbar for xs
 .search-languages ul.dropdown-menu a:focus
 {
     background-color: #f8f9f7;
+}
+
+.navbar.navbar-default.main-menu-xs{
+    background-color: transparent;
+    border: none;
+    margin: 5px 0;
+}
+
+ul.nav.navbar-nav.main-menu{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+ul.nav.navbar-nav.main-menu>li{
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    background-color: #fbf9f5;
+}
+ul.nav.navbar-nav.main-menu>li>a.menu:hover,
+ul.nav.navbar-nav.main-menu>li>a.menu:focus{
+    background-color: #f1efeb;
+}
+ul.nav.navbar-nav.main-menu>li>a.menu{
+    color: #555;
+    font-size: medium;
+    font-weight: 600;
+}
+ul.nav.navbar-nav.main-menu ul.dropdown-menu.main-menu{
+    text-align: center;
+    background-color: #fefdf9;
+    font-size: 11pt;
+}
+.navbar-default.main-menu-xs .navbar-nav .open .dropdown-menu>li>a{
+
+    color: #333;
 }
