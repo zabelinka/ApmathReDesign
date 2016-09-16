@@ -40,8 +40,8 @@
 
     <div class="for-students">
 
-        <div class="row">
-            <div class="col-sm-12">
+        <div class="row for-students">
+            <div class="col-xs-10 col-sm-12">
                 <nav class="navbar navbar-default content-navbar">
                     <div class="container-fluid">
                         <div class="navbar-header">
@@ -51,7 +51,7 @@
                                 <li class="active">Студентам</li>
                             </ol>
                         </div>
-                        <div class="btn-group profile navbar-right">
+                        <div class="hidden-xs btn-group profile navbar-right">
                             <button type="button" class="btn btn-default dropdown-toggle profile-btn" data-toggle="dropdown"
                                     aria-haspopup="true"
                                     aria-expanded="false">
@@ -71,15 +71,37 @@
                     </div>
                 </nav>
             </div>
+            <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
+                <nav class="navbar navbar-default content-navbar">
+                    <div class="btn-group profile navbar-right">
+                        <button type="button" class="btn btn-default dropdown-toggle profile-btn" data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false">
+                            <img src="images/default-profile-pic.png" class="profile-image img-circle">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu profile">
+                            <li><a href="#">Мои курсы</a></li>
+                            <li><a href="#">Мой профиль</a></li>
+                            <li><a href="#">Уведомления</a></li>
+                            <li><a href="#">Настройки</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Выход</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+
         </div>
 
 
 
         <div class="content">
 
-            <div class="row row-eq-height">
+            <div class="row row-eq-height hidden-xs">
 
-                <div class="col-xs-3 " id="left-menu">
+                <div class="col-sm-3 " id="left-menu">
                     <div class="student-menu menu-block">
                         <ul class="nav nav-pills nav-stacked menu-side">
                             <li role="presentation"><a href="#">Студенческий совет</a></li>
@@ -89,7 +111,7 @@
                     </div>
 
                 </div>
-                <div class="col-xs-6" id="menu-center">
+                <div class="col-sm-6" id="menu-center">
                     <div class="student-menu" >
                         <ul class="nav nav-pills nav-justified">
                             <li role="presentation" class="menu-block" id="menu-block-1">
@@ -112,7 +134,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xs-3 " id="right-menu">
+                <div class="col-sm-3 " id="right-menu">
                     <div class="student-menu menu-block">
                         <ul class="nav nav-pills nav-stacked menu-side">
                             <li role="presentation"><a href="#">Библиотека</a></li>
@@ -129,7 +151,7 @@
 
 
     <div class="row">
-        <div class="col-sm-12 news-box">
+        <div class="col-xs-12 news-box">
             <div class="news">
                 <h3>Новости для студентов</h3>
 

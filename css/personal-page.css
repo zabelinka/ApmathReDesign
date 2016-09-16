@@ -1,6 +1,11 @@
 .person-header h2{
     margin-top: 0;
 }
+.person-header .info{
+    padding: 0;
+
+}
+
 ul.degree{
     list-style-type: none;
     padding-left: 3px;
@@ -15,6 +20,46 @@ ul.degree>li{
     padding-bottom: 20px;
     font-size: medium;
 }
+
+@media (max-width: 991px){
+    .person-header ul.person-contacts>li{
+         display: block;
+         padding-bottom: 0;
+     }
+    .person-header ul.person-contacts>li>i{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .degree{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 787px) {
+    .person-photo {
+        padding: 0;
+
+    }
+    .col-xs-4.person-photo{
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    .person-header ul.person-contacts>li{
+        margin-right: 0;
+    }
+    .col-xs-12.degree{
+        padding: 0;
+    }
+}
+
+@media (max-width: 490px){
+    .col-xs-8.person-contacts{
+        padding: 0;
+    }
+}
+
+
+
 .professor-info{
     margin-bottom: 40px;
 }
