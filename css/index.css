@@ -49,6 +49,14 @@ a.virtual-tour{
 
 
 /* banners*/
+.col-sm-12.carousel{
+    padding: 0;
+}
+
+.carousel-inner>.item>.col-xs-4{
+    padding: 3px;
+}
+
 #banners-carousel{
     margin-top: 15px;
     border-radius: 20px;
