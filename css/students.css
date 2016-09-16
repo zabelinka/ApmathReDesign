@@ -5,8 +5,6 @@
 }
 
 
-
-
 .btn.btn-default.profile-btn{
     border: none;
 }
@@ -67,6 +65,14 @@
     opacity : 0.7;
 }
 
+#student-menu-xs{
+    padding: 0;
+    background-image: url(../images/mosaic-central.jpg);
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center top;
+    opacity : 0.7;
+}
 
 
 .student-menu{
@@ -80,14 +86,49 @@
 .menu-block>.nav-stacked>li{
     margin-top: 0;
     padding: 10px 25px;
+
 }
-.menu-block>.nav-stacked>li>a{
+ul.nav.navbar-nav.main-menu.student-menu>li{
+    margin-top: 0;
+    padding: 10px 10px;
+    background-color: transparent;
+    border: none;
+}
+ul.nav.navbar-nav.main-menu.student-menu>li a{
+    padding-left: 10px;
+    padding-right: 10px;
+    white-space: normal;
+}
+.menu-block .nav-stacked>li>a,
+ul.nav.navbar-nav.main-menu.student-menu>li>a{
     color: white;
     font-weight: 600;
     background-color: transparent;
     border: 1px solid #e7e7e7;
+    border-radius: 4px;
 }
-.menu-block>.nav-stacked>li>a:hover, .menu-block>.nav-stacked>li>a:focus{
+ul.nav.navbar-nav.main-menu.student-menu ul.dropdown-menu{
+    border: 1px solid #e7e7e7;
+    border-top: transparent;
+    border-radius: 4px;
+}
+ul.nav.navbar-nav.main-menu.student-menu ul.dropdown-menu>li>a{
+    text-align: center;
+    color: white;
+    text-shadow: black 2px 1px 5px;
+}
+
+ul.nav.navbar-nav.main-menu.student-menu ul.dropdown-menu>li>a:hover,
+ul.nav.navbar-nav.main-menu.student-menu ul.dropdown-menu>li>a:focus {
+    font-weight: 600;
+}
+
+.menu-block>.nav-stacked>li>a:hover,
+.menu-block>.nav-stacked>li>a:focus,
+ul.nav.navbar-nav.main-menu.student-menu>li>a:focus,
+ul.nav.navbar-nav.main-menu.student-menu>li>a:hover,
+ul.nav.navbar-nav.main-menu.student-menu .dropdown-menu
+{
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
 }
@@ -97,6 +138,9 @@
     padding: 10px 20px;
 }
 
+.col-xs-12.main-menu-xs{
+    padding: 0;
+}
 
 
 
