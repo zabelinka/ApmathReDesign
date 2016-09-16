@@ -24,7 +24,6 @@
     <![endif]-->
     <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
 
-    <link rel="import" href="intro.html">
 </head>
 <body>
 
@@ -93,8 +92,8 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-xs-12 main-menu-xs">
-                                <nav class="navbar navbar-default">
+                            <div class="col-xs-12">
+                                <nav class="navbar navbar-default main-menu-xs">
                                     <div class="main-menu">
 
                                         <ul class="nav navbar-nav main-menu">
@@ -193,9 +192,6 @@
         </div>
     </div>
 
-
-
-
     <div class="row ">
         <div class="hidden-xs col-sm-9 col-md-7 header-row">
             <ul class="nav nav-pills ">
@@ -255,7 +251,7 @@
                 <div class="hidden-xs col-sm-10 title-col">
                     <a href="index.html">
                         <h3 class="subtitle">ФАКУЛЬТЕТ</h3>
-                        <h1 class="title">ПРИКЛАДНОЙ МАТЕМАТИКИ&nbsp;- ПРОЦЕССОВ&nbsp;УПРАВЛЕНИЯ</h1>
+                        <h1 class="title">ПРИКЛАДНОЙ МАТЕМАТИКИ&nbsp;- ПРОЦЕССОВ УПРАВЛЕНИЯ</h1>
                     </a>
                 </div>
             </div>
@@ -339,7 +335,7 @@
                                role="button" aria-haspopup="true" aria-expanded="false">
                                 Наука <span class="caret"></span>
                             </a>
-                            <ul class="dropdown-menu main-menu">
+                            <ul class="dropdown-menu dropdown-menu-right main-menu">
                                 <li><a href="#">Диссертационные советы</a></li>
                                 <li><a href="#">Научные проекты</a></li>
                                 <li role="separator" class="divider"></li>
@@ -360,8 +356,6 @@
             </nav>
         </div>
     </div>
-
-
 
 
 
@@ -669,14 +663,64 @@
         </div>
     </div>
 
+
+    <div class="row footer">
+        <div class="col-xs-12 col-sm-12 col-md-6  footer-content">
+            <div class="contacts">
+                <h5>Контакты</h5>
+
+                <div class="official-contacts">
+                    <div class="address">
+                        <i class="fa fa-map-marker fa-lg"></i>
+                        <a href=""> 198504, Санкт-Петербург, Петергоф, Университетский просп., д.35 </a>
+                    </div>
+                    <div class="phone-number">
+                        <i class="fa fa-phone fa-lg"></i>
+                        <a href="tel:+78124287159"> +7 (812) 428 71 59 </a>
+                    </div>
+                    <div class="email">
+                        <i class="fa fa-envelope"></i>
+                        <a href="mailto:priemcom@apmath.spbu.ru"> priemcom@apmath.spbu.ru</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 footer-content">
+            <div class="links">
+                <h5>Ссылки</h5>
+                <div class="socials">
+                    <div class="vk">
+                        <i class="fa fa-vk fa-lg"></i>
+                        <a href="#">ПМ-ПУ СМИ</a>
+                        <a href="#">Студенческий&nbsp;совет</a>
+                        <a href="#">Абитуриенту</a>
+                    </div>
+
+                    <div class="youtube">
+                        <i class="fa fa-youtube-play fa-lg"></i>
+                        <a href="#">Видеолаборатория UFO</a>
+                        <a href="#">Канал факультета</a>
+                    </div>
+
+                    <div class="rss">
+                        <i class="fa fa-rss fa-lg"></i>
+                        <a href="#"> RSS-лента</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row footer">
+        <div class="col-sm-12 footer-content">
+            <p class="authentic"> © 2016 Факультет Прикладной математики - процессов управления Санкт-Петербургского
+                государственного университета</p>
+        </div>
+    </div>
+
 </div>
 
-    <!-- import footer -->
-    <script>
-        var link = document.querySelector('link[rel=import]');
-        var content = link.import.querySelector('#footer');
-        document.body.appendChild(content.cloneNode(true));
-    </script>
+
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
