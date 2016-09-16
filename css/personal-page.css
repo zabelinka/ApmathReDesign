@@ -101,6 +101,13 @@ ul.degree>li{
 .professor-info .tab-pane p{
     text-indent: 20px;
 }
+@media (max-width: 767px){
+    .professor-info .tab-pane ul,
+    .professor-info .tab-pane ol
+    {
+        padding-left: 10px;
+    }
+}
 
 
 a.chevron-toggle:hover, a.chevron-toggle:focus{

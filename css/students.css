@@ -162,9 +162,12 @@ ul.nav.navbar-nav.main-menu.student-menu .dropdown-menu
     padding: 10px 20px;
 }
 
-.col-xs-12.main-menu-xs{
+.col-xs-12.main-menu-xs,
+.col-xs-12.news-box{
     padding: 0;
 }
+
+
 
 
 

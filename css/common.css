@@ -265,6 +265,12 @@ i.fa{
     margin-bottom: 0;
 }
 
+@media (max-width: 767px){
+    .row.footer{
+        padding: 0;
+    }
+}
+
 
 /*
 breadcrumb
@@ -371,7 +377,7 @@ header navbar for xs
      text-align: center;
  }
 .navbar-xs .col-xs-12{
-    padding: 0;
+    padding: 20px;
 }
 
 .navbar-xs .row.row-eq-height.audience{
@@ -469,12 +475,8 @@ ul.nav.navbar-nav.main-menu ul.dropdown-menu.main-menu{
     font-size: 11pt;
 }
 .navbar-default.main-menu-xs .navbar-nav .open .dropdown-menu>li>a{
-
     color: #333;
 }
-
-
-
 
 
 
