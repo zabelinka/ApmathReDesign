@@ -306,3 +306,40 @@ breadcrumb
     display: -ms-flexbox;
     display:         flex;
 }
+
+
+/*
+header navbar for xs
+*/
+.col-xs-12.navbar-xs{
+    padding: 5px;
+}
+.navbar.navbar-default.navbar-xs{
+    background-color: white;
+    border: none;
+    min-height: 30px;
+    margin-bottom: 0;
+
+}
+.navbar.navbar-default.navbar-xs a.navbar-brand{
+    padding: 5px 5px;
+}
+.navbar.navbar-default.navbar-xs a.navbar-brand.text{
+    padding-top: 10px;
+    color: #333;
+}
+.navbar.navbar-default.navbar-xs .navbar-brand img{
+    max-height: 30px;
+    padding: 0;
+}
+
+.navbar-xs .navbar-toggle.collapsed{
+    margin: 0;
+    border: none;
+}
+.navbar-xs .navbar-toggle.collapsed:focus{
+    background-color: transparent;
+}
+.navbar-xs .navbar-toggle.collapsed .icon-bar{
+    background-color: #e43f51;
+}
